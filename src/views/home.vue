@@ -3,16 +3,19 @@
         <h1>VUE3教学</h1>
         <hr>
         <Mobanyufa></Mobanyufa>
+        <Shuxingbangding></Shuxingbangding>
     </div>
 </template>
 
 <script>
 import Mobanyufa from '../components/mobanyufa.vue';
+import Shuxingbangding from '../components/shuxingbangding.vue';
 
 export default {
     name: 'Home',
     components: {
-        Mobanyufa
+        Mobanyufa,
+        Shuxingbangding
     },
 
 }
