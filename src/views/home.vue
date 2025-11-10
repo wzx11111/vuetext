@@ -9,6 +9,22 @@
         <Keyguanlizhuangtai></Keyguanlizhuangtai>
         <Shijianchuli></Shijianchuli>
         <Shijianchuancan></Shijianchuancan>
+        <Shijianxiushifu></Shijianxiushifu>
+        <Shuzubianhuazhence></Shuzubianhuazhence>
+        <Jisuanshuxing></Jisuanshuxing>
+        <Classbangding></Classbangding>
+        <Stylebangding></Stylebangding>
+        <Watchzhenting></Watchzhenting>
+        <Biaodanshujvbangding></Biaodanshujvbangding>
+        <Mobanyinyong></Mobanyinyong>
+        <Zujianzucheng></Zujianzucheng>
+        <Zujianqiantao></Zujianqiantao>
+        <Zujianchuanzhiprops></Zujianchuanzhiprops>
+        <PropsjiaoyanA></PropsjiaoyanA>
+        <Zujianshijian></Zujianshijian>
+       
+        <ZujianshijianVmodel></ZujianshijianVmodel>
+       
     </div>
 </template>
 
@@ -20,6 +36,22 @@ import Liebiaoxuanran from '../components/liebiaoxuanran.vue';
 import Keyguanlizhuangtai from '../components/keyguanlizhuangtai.vue';
 import Shijianchuli from '../components/shijianchuli.vue';
 import Shijianchuancan from '../components/shijianchuancan.vue';
+import Shijianxiushifu from '../components/shijianxiushifu.vue';
+import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue';
+import Jisuanshuxing from '../components/jisuanshuxing.vue';
+import Classbangding from '../components/classbangding.vue';
+import Stylebangding from '../components/stylebangding.vue';
+import Watchzhenting from '../components/watchzhenting.vue';
+import Biaodanshujvbangding from '../components/biaodanshujvbangding.vue';
+import Mobanyinyong from '../components/mobanyinyong.vue';
+import Zujianzucheng from '../components/zujianzucheng.vue';
+import Zujianqiantao from '../components/zujianqiantao.vue';
+import Zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import PropsjiaoyanA from '../components/propsjiaoyanA.vue';
+import Zujianshijian from '../components/zujianshijian.vue';
+
+import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue';
+
 
 export default {
     name: 'Home',
@@ -30,9 +62,25 @@ export default {
         Liebiaoxuanran,
         Keyguanlizhuangtai,
         Shijianchuli,
-        Shijianchuancan
+        Shijianchuancan,
+        Shijianxiushifu,
+        Shuzubianhuazhence,
+        Jisuanshuxing,
+        Classbangding,
+        Stylebangding,
+        Watchzhenting,
+        Biaodanshujvbangding,
+        Mobanyinyong,
+        Zujianzucheng,
+        Zujianqiantao,
+        Zujianchuanzhiprops,
+        PropsjiaoyanA,
+        Zujianshijian,
+        
+        ZujianshijianVmodel,
+        
+        
     },
-
 }
 </script>
 
