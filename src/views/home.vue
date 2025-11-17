@@ -1,6 +1,10 @@
 <template>
     <div class="home-container">
         <h1>VUE3教学</h1>
+        <nav class="navigation">
+            <router-link to="/new" class="nav-link">新组建集合</router-link>
+        </nav>
+
         <hr>
         <Mobanyufa></Mobanyufa>
         <Shuxingbangding></Shuxingbangding>
@@ -26,6 +30,9 @@
         <Chachaoslots></Chachaoslots>
         <Shengmingzhouqi></Shengmingzhouqi>
         <Shengmingzhouqiyingyong></Shengmingzhouqiyingyong>
+        <Dongtaizujian></Dongtaizujian>
+        <Yibuzujian></Yibuzujian>
+        <Yilaizhuruparent></Yilaizhuruparent>
     </div>
 </template>
 
@@ -54,6 +61,9 @@ import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue';
 import Chachaoslots from '../components/chachaoslots.vue';
 import Shengmingzhouqi from '../components/shengmingzhouqi.vue';
 import Shengmingzhouqiyingyong from '../components/shengmingzhouqiyingyong.vue';
+import Dongtaizujian from '../components/dongtaizujian.vue';
+import Yibuzujian from '../components/yibuzujian.vue';
+import Yilaizhuruparent from '../components/yilaizhuruparent.vue';
 export default {
     name: 'Home',
     components: {
@@ -80,8 +90,10 @@ export default {
         ZujianshijianVmodel,
         Chachaoslots,
         Shengmingzhouqi,
-        Shengmingzhouqiyingyong
-        
+        Shengmingzhouqiyingyong,
+        Dongtaizujian,
+        Yibuzujian,
+        Yilaizhuruparent
     },
 }
 </script>
@@ -94,5 +106,21 @@ export default {
 h1{
     z-index: 11;
     color: aqua;
+}
+.navigation{
+    margin: 20px 0;
+    z-index: 11;
+}
+.nav-link{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.nav-link:hover{
+    background-color: #555;
 }
 </style>

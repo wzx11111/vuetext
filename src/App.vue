@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Home />
+    <!-- <Home /> -->
     <BackgroundEffect />
-
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import Home from './views/home.vue';
+// import Home from './views/home.vue';
 import BackgroundEffect from './components/BackgroundEffect.vue';
 
 export default {
   name: 'App',
   components: {
-    Home,
+    // Home,
     BackgroundEffect
   },
 };
@@ -20,14 +20,14 @@ export default {
 </script>
 
 <style>
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
-  background-color: #000;
+  background-color: #000;     
   color: #fff;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
