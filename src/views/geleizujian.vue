@@ -6,15 +6,18 @@
         </nav>
         <hr>
         <Swiper></Swiper>
+        <Elementbiaoban></Elementbiaoban>
     </div>
 </template>
 
 <script>
 import Swiper from '../newnewcomponents/swiper.vue'
+import Elementbiaoban from '../newnewcomponents/elementbiaoban.vue';
 export default {
     name: 'geleizujian',
     components: {
         Swiper,
+        Elementbiaoban,
     },
     data() {
         return {
